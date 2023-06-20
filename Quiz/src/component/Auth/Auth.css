@@ -1,0 +1,104 @@
+.header-content {
+    padding: 0 20px 0 20px;
+    display: flex;
+    justify-content: right;
+    gap: 8px;
+    align-items: center;
+
+}
+
+.header {
+    padding: 10px;
+}
+
+button.btnSignup,
+button.btnLogin {
+    border: 2px solid #826a6a;
+    background: white;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+button.btnSignup:hover {
+    background-color: #e9e9e9;
+}
+
+button.btnSignup:disabled {
+    cursor: no-drop;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.wellcome {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+label {
+    padding-top: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    color: white;
+}
+
+.forgotPass {
+    padding-top: 5px;
+    cursor: pointer;
+    color: gray;
+}
+
+.forgotPass:hover {
+    color: black;
+}
+
+.goToHomePage {
+    cursor: pointer;
+    text-align: center;
+    padding-top: 20px;
+    color: gray;
+}
+
+.goToHomePage:hover {
+    color: black;
+}
+
+.iconLoading {
+    position: sticky;
+    color: rgb(230, 178, 178);
+    margin-bottom: 3px;
+    animation-name: iconLoading;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes iconLoading {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .login-signup .title {
+        width: 100%;
+    }
+
+    .login-signup .wellcome {
+        width: 100%;
+    }
+
+    .login-signup .content {
+        width: 70%;
+    }
+}

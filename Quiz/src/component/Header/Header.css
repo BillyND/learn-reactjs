@@ -1,0 +1,80 @@
+.navbar-expand-lg .navbar-nav .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    /* background-color: rgb(255, 234, 234); */
+
+    border-radius: 15px;
+    color: red;
+}
+
+button.btn-login {
+    border-radius: 4px;
+    border: 0.7px solid #000000;
+    margin-right: 16px;
+    padding: 8px 16px;
+    background-color: #92929200;
+    width: 90px;
+}
+
+button.btn-login:hover {
+    background-color: #aaaaaa30;
+}
+
+button.btn-signup {
+    border-radius: 4px;
+    border: 0.7px solid #000000;
+    /* margin-right: 16px; */
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    width: 90px;
+}
+
+button.btn-signup:hover {
+    background-color: #303030;
+}
+
+.container {
+    padding: 5px;
+    max-width: 100% !important;
+}
+
+.container-lg,
+.container-md,
+.container-xl {
+    max-width: 100% !important;
+    /* height: 100% !important; */
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0px;
+}
+
+.dropdown-language {
+    padding: 0 40px 0 20px;
+}
+
+
+.dropdown-language .dropdown-toggle::after {
+    display: none;
+}
+
+.btn-close {
+    right: 37px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropDown-btn {
+        display: flex;
+    }
+
+    .dropdown-language {
+        padding: 0;
+    }
+
+}

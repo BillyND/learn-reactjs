@@ -1,0 +1,38 @@
+.float-none {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.preview-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #a6a5a5;
+    border: 1px dashed;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 0 20px 0 20px;
+}
+
+.preview-image .image-preview {
+    /* width: 40%; */
+    max-height: 100%;
+}
+
+.choose-image {
+    display: flex;
+    align-items: center;
+}
+
+.handle-choose-image {
+    width: 70%;
+}
+
+.table tr {
+    vertical-align: middle;
+}
+
+.assign-quiz {
+    display: flex;
+}

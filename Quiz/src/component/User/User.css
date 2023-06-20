@@ -1,0 +1,10 @@
+.arr-quiz {
+    display: flex;
+    gap: 50px;
+    height: fit-content;
+}
+
+.card {
+    /* background-color: aqua; */
+    height: fit-content;
+}

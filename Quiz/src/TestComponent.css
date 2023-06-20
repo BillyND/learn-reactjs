@@ -1,0 +1,32 @@
+.App {
+    text-align: center;
+}
+
+.road {
+    position: relative;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #333;
+}
+
+.car {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 100px;
+    background-color: #f00;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.game-over {
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #f00;
+}
